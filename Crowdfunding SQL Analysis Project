@@ -1,0 +1,77 @@
+📌 Project Overview
+
+This project focuses on analyzing crowdfunding data using SQL.
+It includes data cleaning, transformation, and generating insights to understand successful projects.
+
+⸻
+
+🛠️ Tools & Technologies
+	•	MySQL
+	•	SQL (Joins, Aggregations, CTEs)
+	•	Data Cleaning & Transformation
+
+⸻
+
+📂 Dataset Description
+
+The dataset contains crowdfunding project details such as:
+	•	Project Name
+	•	Funding Goal
+	•	Amount Raised (USD)
+	•	Number of Backers
+	•	Project Status
+	•	Timestamps (created, launched, deadline, etc.)
+
+⸻
+
+⚙️ Data Cleaning & Transformation
+	•	Converted epoch timestamps into readable datetime format
+	•	Created new date columns for analysis
+	•	Handled null and missing values
+	•	Structured dataset for better querying
+
+⸻
+
+📅 Calendar Table Creation
+	•	Built a dynamic calendar table using recursive CTE
+	•	Extracted:
+	•	Year, Month, Quarter
+	•	Weekday details
+	•	Financial month & quarter
+
+⸻
+
+📊 Key Analysis Performed
+
+🔝 Top Successful Projects (By Backers)
+	•	Identified projects with highest number of supporters
+
+💰 Top Successful Projects (By Amount Raised)
+	•	Found projects with highest funding
+
+⸻
+
+📈 Key Insights
+	•	Projects with more backers are more likely to succeed
+	•	High funding projects are concentrated in specific categories
+	•	Time-based trends impact campaign success
+
+⸻
+
+📁 Files Included
+	•	SQL Script (crowdfunding_analysis.sql)
+	•	Dataset (if included)
+
+⸻
+
+🚀 Future Improvements
+	•	Add advanced SQL queries (joins, window functions)
+	•	Integrate with Tableau for visualization
+	•	Perform predictive analysis
+
+⸻
+
+👤 Author
+
+Kshitij Ahire
+Aspiring Data Analyst
